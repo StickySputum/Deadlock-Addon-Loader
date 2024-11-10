@@ -6,3 +6,4 @@ dist
 icon.ico
 main.spec
 deadlock.cmd
+config.json
