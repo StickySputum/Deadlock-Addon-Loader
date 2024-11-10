@@ -1,5 +1,6 @@
 Project Structure
 
+```plaintext
 DEADLOCK ADDON LOADER/
 ├── config.json
 ├── main.py
@@ -18,7 +19,7 @@ DEADLOCK ADDON LOADER/
 │   └── gameinfo.gi
 ├── regular_gameinfo
 │   └── gameinfo.gi
-
+```
 
 Deadlock folder 
 ...\Steam\steamapps\common\Deadlock
