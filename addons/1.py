@@ -17,8 +17,11 @@ for filename in os.listdir(addons_dir):
         json_filename = filename.replace(".vpk", ".json")
         json_path = os.path.join(addons_dir, json_filename)
         
-        # Записываем шаблонное содержимое в JSON файл
-        with open(json_path, "w", encoding="utf-8") as json_file:
-            json.dump(template_content, json_file, ensure_ascii=False, indent=4)
+        # Проверяем, существует ли уже JSON файл
+        if not os.path.exists(json_path):
+            # Если JSON файла нет, создаем новый и записываем данные
+            template_content["name"] = filename.replace(".vpk", "")  # Вставляем имя файла без расширения
+            with open(json_path, "w", encoding="utf-8") as json_file:
+                json.dump(template_content, json_file, ensure_ascii=False, indent=4)
 
-print("JSON файлы созданы для всех .vpk файлов.")
+print("JSON файлы созданы для всех .vpk файлов, которые еще не имеют соответствующего JSON.")
