@@ -1,0 +1,7 @@
+structure.cmd
+project_structure.txt
+__pycache__
+build
+dist
+icon.ico
+main.spec

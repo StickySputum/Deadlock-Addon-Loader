@@ -1,0 +1,7 @@
+{
+  Mod          citadel
+  Write        citadel
+  Game         citadel/addons
+  Game         citadel
+  Game         core
+}

@@ -2,6 +2,10 @@ DEADLOCK ADDON LOADER/
 ├── config.json
 ├── main.py
 ├── readme.md
+├── app/
+│   ├── __init__.py
+│   ├── functions.py
+│   └── gui.py
 ├── addons
 │   ├── pak01_dir.vpk
 │   ├── pak..._dir.vpk
