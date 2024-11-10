@@ -11,8 +11,11 @@ DEADLOCK ADDON LOADER/
 │   └── gui.py
 ├── addons
 │   ├── pak01_dir.vpk
+│   ├── pak01_dir.json
 │   ├── pak..._dir.vpk
-│   └── pak99_dir.vpk
+│   ├── pak..._dir.json
+│   ├── pak99_dir.vpk
+│   └── pak99_dir.json
 ├── images
 │   └── icon.png
 ├── modded_gameinfo
